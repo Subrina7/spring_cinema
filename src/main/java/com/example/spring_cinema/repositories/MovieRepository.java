@@ -7,3 +7,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 // gives access to methods from JPA
 public interface MovieRepository extends JpaRepository<Movie, Long> {
 }
+
+
